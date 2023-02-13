@@ -1,2 +1,2 @@
 # sceptix-miniproject
-this repositry is created for sceptix recruitment 
+this is about FOSS
