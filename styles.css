@@ -1,5 +1,3 @@
-@import url();
-
 html{
     scroll-behavior: smooth;
 }
@@ -24,6 +22,9 @@ body{
     padding: 0;
     font-family: poppins;
     background-color: #e6e6ff;
+    border: 3.5px solid #0f0f0f;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 /* ---Cover page------- */
@@ -165,4 +166,29 @@ footer{
     color: #ffffff;
     font-size: 1.5rem;
     padding: 30px;
+}
+
+/* nabbutton */
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up a{
+    background-color: #ffffff;
+    border: 3px solid   #0f0f0f;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    position:fixed;
+    bottom: 30px;
+    right: 19px;
+    font-size: 1.3rem;
+}
+
+.up i{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }
